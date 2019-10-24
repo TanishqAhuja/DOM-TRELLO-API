@@ -1,0 +1,36 @@
+(
+            $('<div>')
+              .attr({
+                class: "card-header",
+              })
+              .append(`<h3>${element["name"]}</h3>`)
+          ),
+          (
+            $('<div>')
+              .attr({
+                class: "card-body",
+              })
+              .append(`<span>${element["checkItems"]}</span>`)
+          )
+.text(`${list["name"]}`)
+.text(`${elem["name"]}`)
+
+($("<input>")
+                    .attr({
+                      class: "form-control form-control-md",
+                      type: "text",
+                      placeholder: "Add New Checklist",
+                      autocomplete: "off",
+                      required,
+                    })),
+                  ($("<span>")
+                    .attr({
+                      class: "input-group-btn",
+                    })
+                    .append(
+                      $("<button>")
+                        .attr({
+                          class: "btn btn-success",
+                        })
+                        .text("+")
+                    ))
